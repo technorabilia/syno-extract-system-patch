@@ -22,7 +22,6 @@ $
 Execute the following command.
 ```
 docker run -it --rm -v ~/data:/data syno-extract-system-patch \
-  syno_extract_system_patch \
   /data/in/DSM_DS723+_42962.pat \
   /data/out/.
 ```
