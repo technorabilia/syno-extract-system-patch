@@ -21,7 +21,7 @@ $
 ```
 Execute the following command.
 ```
-docker run -it --rm -v ~/data:/data syno-extract-system-patch \
+docker run --rm -v ~/data:/data syno-extract-system-patch \
   /data/in/DSM_DS723+_42962.pat \
   /data/out/.
 ```
