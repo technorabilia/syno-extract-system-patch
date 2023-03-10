@@ -11,7 +11,7 @@ git clone https://github.com/technorabilia/syno-extract-system-patch.git
 Build the image.
 ```
 cd syno-extract-system-patch
-docker build --tag syno-extract-system-patch .
+sudo docker build --tag syno-extract-system-patch .
 ```
 Place the pat file you want to extract in `~/data/in`.
 ```
@@ -21,7 +21,7 @@ $
 ```
 Execute the following command.
 ```
-docker run --rm -v ~/data:/data syno-extract-system-patch \
+sudo docker run --rm -v ~/data:/data syno-extract-system-patch \
   /data/in/DSM_DS723+_42962.pat \
   /data/out/.
 ```
